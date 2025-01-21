@@ -1,0 +1,169 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: orthogonalProjection.fig
+%%Creator: fig2dev Version 3.2.8b
+%%CreationDate: 2022-08-17 15:23:18
+%%BoundingBox: 0 0 220 165
+%%Magnification: 1.0000
+%%EndComments
+%%BeginProlog
+/MyAppDict 100 dict dup begin def
+/$F2psDict 200 dict def
+$F2psDict begin
+$F2psDict /mtrx matrix put
+/col-1 {0 setgray} bind def
+/col0 {0.000 0.000 0.000 srgb} bind def
+/col1 {0.000 0.000 1.000 srgb} bind def
+/col4 {1.000 0.000 0.000 srgb} bind def
+/col7 {1.000 1.000 1.000 srgb} bind def
+
+end
+
+% bricks
+<<
+ /PatternType 1
+ /PaintType 2
+ /TilingType 1
+ /BBox [0 0 32 32]
+ /XStep 32
+ /YStep 32
+ /PaintProc
+ {
+  pop
+  1 slw 0 slc n
+  2 4 {dup -1 exch m 34 0 rl 8 add} repeat pop
+  2 2 {dup 2 m 0 8 rl 0 8 rm 0 8 rl 16 add} repeat pop
+  10 2 {dup -1 m 0 3 rl 0 8 rm 0 8 rl 0 8 rm 0 7 rl 16 add} repeat pop
+  s
+ } bind
+>>
+matrix
+makepattern
+/P7 exch def
+
+/cp {closepath} bind def
+/ef {eofill} bind def
+/gr {grestore} bind def
+/gs {gsave} bind def
+/sa {save} bind def
+/rs {restore} bind def
+/l {lineto} bind def
+/rl {rlineto} bind def
+/m {moveto} bind def
+/rm {rmoveto} bind def
+/n {newpath} bind def
+/s {stroke} bind def
+/sh {show} bind def
+/slc {setlinecap} bind def
+/slj {setlinejoin} bind def
+/slw {setlinewidth} bind def
+/srgb {setrgbcolor} bind def
+/rot {rotate} bind def
+/sc {scale} bind def
+/sd {setdash} bind def
+/ff {findfont} bind def
+/sf {setfont} bind def
+/scf {scalefont} bind def
+/sw {stringwidth} bind def
+/tr {translate} bind def
+/tnt {dup dup currentrgbcolor
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add
+  4 -2 roll dup 1 exch sub 3 -1 roll mul add srgb}
+  bind def
+/shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
+  4 -2 roll mul srgb} bind def
+/xfig_image {image Data flushfile} def
+ /DrawEllipse {
+	/endangle exch def
+	/startangle exch def
+	/yrad exch def
+	/xrad exch def
+	/y exch def
+	/x exch def
+	/savematrix mtrx currentmatrix def
+	x y tr xrad yrad sc 0 0 1 startangle endangle arc
+	closepath
+	savematrix setmatrix
+	} def
+
+/$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
+/$F2psEnd {$F2psEnteredState restore end} def
+
+/pageheader {
+sa
+n 0 165 m 0 0 l 220 0 l 220 165 l cp clip
+-268.0 401.4 tr
+1 -1 sc
+$F2psBegin
+10 setmiterlimit
+0 slj 0 slc
+ 0.06000 0.06000 sc
+} bind def
+/pagefooter {
+$F2psEnd
+restore
+} bind def
+%%EndProlog
+pageheader
+%
+% Fig objects follow
+%
+% 
+% here starts figure with depth 50
+% Arc
+15.000 slw
+0 slc
+n 5700.0 5229.5 976.5 127.9101 -3.2020 arcn
+gs col0 s gr
+% Ellipse
+30.000 slw
+n 5100 6000 75 75 0 360 DrawEllipse 
+% Fill with pattern background color
+gs /DeviceRGB setcolorspace 1.00 0.00 0.00 setcolor fill gr
+
+% Fill with pattern pen color
+gs /DeviceRGB setcolorspace 1.00 0.00 0.00 P7 setpattern fill gr
+
+gs col4 s gr
+% Polyline
+0 slj
+n 4500 6300 m
+ 8100 4350 l gs col1 s gr % Polyline
+gs  clippath
+6457 5226 m 6474 5257 l 6303 5366 l 6274 5314 l cp
+eoclip
+n 5100 6000 m
+ 6450 5250 l gs col1 s gr gr
+% arrowhead
+n 6303 5366 m 6393 5281 l 6274 5314 l 6303 5366 l  cp gs col1 1.00 shd ef gr  col1 s
+% Polyline
+gs  clippath
+5991 3951 m 6024 3966 l 5952 4156 l 5898 4132 l cp
+eoclip
+n 5100 6000 m
+ 6000 3975 l gs col4 s gr gr
+% arrowhead
+n 5952 4156 m 5974 4034 l 5898 4132 l 5952 4156 l  cp gs col4 1.00 shd ef gr  col4 s
+% Polyline
+15.000 slw
+n 6000 4050 m
+ 6675 5175 l gs col0 s gr % Polyline
+n 6525 4950 m 6750 4800 l
+ 6900 5025 l gs col0 s gr /Times-Roman ff 333.33 scf sf
+5100 5100 m
+gs 1 -1 sc (u) col0 sh gr
+/Times-Roman ff 333.33 scf sf
+5775 5925 m
+gs 1 -1 sc (v) col0 sh gr
+/Times-Roman ff 333.33 scf sf
+6000 6450 m
+gs 1 -1 sc (proj \(u\)) col0 sh gr
+/Times-Roman ff 233.33 scf sf
+6450 6675 m
+gs 1 -1 sc (v) col0 sh gr
+% here ends figure;
+pagefooter
+showpage
+%%Trailer
+end
+%EOF
